@@ -3,15 +3,15 @@ import React from 'react'
 
 type Props = {}
 
-const HomeScreen = (props: Props) => {
+const SignUpScreen = (props: Props) => {
   return (
     <View style={styles.container}>
-      <Text>Home Screen</Text>
+      <Text>SignUp Screen</Text>
     </View>
   )
 }
 
-export default HomeScreen
+export default SignUpScreen
 
 const styles = StyleSheet.create({
   container: {

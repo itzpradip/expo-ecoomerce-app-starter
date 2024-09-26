@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+# Expo eCommerce App Starter Template 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a starter template for the expo eCommerce app tutorial on my YouTube channel.
 
 ## Get started
 
@@ -16,35 +16,11 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+Extra dependencies added here
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Axios](https://www.npmjs.com/package/axios)
+- [Expo Linear Gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/)
+- [React Native SVG](https://github.com/software-mansion/react-native-svg#installation)
+- [React Native SVG Transformer](https://github.com/kristerkari/react-native-svg-transformer#readme)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Additionally, I've used [JSON Server](https://github.com/typicode/json-server#readme) to create REST API endpoints based on the json data provided in `data/db.json` file. I haven't installed it in this project, but I installed it globally on my machine using `npm install -g json-server` command. To start up the JSON Server type this command into your terminal: `json-server --watch data/db.json --port 8000`. If you don't use `--port` flag then it'll run on "https://localhost:3000" by default.
